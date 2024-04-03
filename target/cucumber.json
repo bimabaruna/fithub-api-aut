@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-03T10:20:22.951Z",
+        "line": 17,
+        "name": "Create user",
+        "description": "",
+        "id": "api-testing;create-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3280399600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user create user",
+            "match": {
+              "location": "APITestStep.userCreateUser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242956800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user get userid",
+            "match": {
+              "location": "APITestStep.userGetUserid()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 574931200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user update username",
+            "match": {
+              "location": "APITestStep.userUpdateUsernameTo()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Testing"
+          },
+          {
+            "name": "@apiTest2"
+          }
+        ]
+      }
+    ],
+    "name": "API Testing",
+    "description": "",
+    "id": "api-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/APITest.feature",
+    "tags": [
+      {
+        "name": "@Testing",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
