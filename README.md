@@ -24,6 +24,6 @@ how to run test:
 
 Reporting:
 
-Reporting using cucumber generate report for the report will be at \catalyst-web-aut\target\cucumber-html-reports
+Reporting using cucumber generate report for the report will be at \fithub-api-aut\target\cucumber-html-reports
 
 Happy Testing! Thank you
